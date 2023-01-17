@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
 
   // grab data from the server -> bots response
 
-  const response = await fetch('https://girafeai.onrender.com', {
+  const response = await fetch('https://girafeai.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
